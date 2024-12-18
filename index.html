@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>rockpaperscissors in console</h1>
+    <div class="btns">
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+    
+    </div>
+    <div class="screen">
+        <p>you</p>
+        <div class="item left"><img id="hscreen" src="./Images/defoult.PNG" alt=""></div>
+        <p>ai</p>
+        <div class="item right"><img id="cscreen" src="./Images/defoult.PNG" alt=""></div>
+    </div>
+    <div class="roundDecision">win</div>
+    <div class="marks">
+        <div class="mark hmark"><h1>you : 0</p></div>
+        <div class="mark cmark"><h1>ai : 0</p></div>
+    </div>
+    <div class="final">loss</div>
+
+    <button id="start">newgame</button>
     <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
